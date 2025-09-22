@@ -1,7 +1,88 @@
 /* Body*/ 
-
-body {
-font-family: Arial, Helvetica, sans-serif;
-background-color:darksalmon ;
-margin: 0;
+html, body{
+    height: 100%;
+    margin: 0; 
 }
+body {
+    display: flex;
+    flex-direction: column; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(128, 9, 151) ;
+    margin: 0;
+}
+
+h1{
+    padding: 5px;
+    text-align: center;
+}
+h2, h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+/*paragraphs*/
+p{
+    line-height: 1.5px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-weight: bold; 
+}
+
+a{
+    color: rgba(0, 0, 0, 0.938)
+}
+a:hover{
+    color: rgb(216, 141, 231);
+}
+h1.main-title{
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 5px; 
+}
+h1.title{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+h2.title{
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    text-align: left;
+}
+nav.footer{
+    padding: 20px;
+    text-align: center;
+     text-shadow: 1px 1px 2px rgb(192, 186, 186);
+}
+ul{
+ text-shadow: 1px 1px 2px rgb(192, 186, 186);
+}
+#motive{
+    font-style: italic; 
+    font-size: 15px; 
+}
+#lift_img{
+    max-width: 50%;
+    max-height: auto;
+}
+.flex-containter{
+    display: flex;
+}
+ol.goat{
+    list-style:none; 
+    display:flex;
+    justify-content: space-around;
+    text-shadow:1px 1px 2px rgb(255, 255, 255);
+    padding:0; 
+    margin: 0; 
+}
+h2.Goat{
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+
+
+
