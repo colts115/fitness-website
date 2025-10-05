@@ -14,27 +14,6 @@ body {
 }
 
 
-.flex-nav ul {
-    font-size:33px;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 0px;
-    margin: 0;
-    background-color: #0d47a1;
-    padding: 20px 50px;
-}
-
-.flex-nav a {
-    color: white; 
-    text-decoration: none;
-    transition:color 0.3s ease;
-}
-.flex-nav a:hover{
-    color:#abccf8;
-}
 header{
     background-color:#42a5f5;
     -webkit-text-stroke: 4px rgb(0, 0, 0);
