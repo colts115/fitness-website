@@ -75,23 +75,6 @@ ul {
     width: 100%;
 }
 
-.about_me_box {
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.about_me_img_box {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about_me_img_box img {
-    max-width: 100%;
-    height: auto;
-}
 
 ol.goat {
     list-style: none;
@@ -103,13 +86,6 @@ ol.goat {
     font-size: 30px;
 }
 
-.motive_img {
-    display: block;
-    width: 30%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /*Media Queries*/
 
